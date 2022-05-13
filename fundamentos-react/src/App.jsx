@@ -6,11 +6,21 @@ import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/Fragmento'
 import Aleatorio from "./Aleatorio"
+import Familia from "./components/basicos/Familia"
+import FamiliaMembro from "./components/basicos/FamiliaMembro"
 
 export default _ =>
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="#05 - Componente com filhos" color="#00c8f8">
+                <Familia sobrenome="Santos">
+                    <FamiliaMembro nome="Pedro" />
+                    <FamiliaMembro nome="Ana" />
+                    <FamiliaMembro nome="Gustavo"/>
+                </Familia>
+            </Card>
+            
             <Card titulo="#04 - Desafio Aleatório" color="#FA6900">
                 <Aleatorio maior={100} menor={1}></Aleatorio>
             </Card>
