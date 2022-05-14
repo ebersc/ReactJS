@@ -1,0 +1,7 @@
+.TabelaProdutos th{
+    background-color: darkcyan;
+}
+
+.TabelaProdutos table{
+    width: 100%;
+}

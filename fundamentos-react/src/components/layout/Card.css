@@ -9,8 +9,6 @@
     min-width: 500px; /*largura minima*/
     max-width: 500px; /*largura maxima*/
 
-    min-height: 300px; /*altura minima*/
-    max-height: 300px; /*altura maxima*/
 }
 .Card .Title{
     padding: 5px 0px;
